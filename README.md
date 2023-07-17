@@ -5,7 +5,7 @@
 
 ### Description 📚
 
-Exercises designed to help me & other programmers get more familiar with TypeScript.
+Exercises designed to help get more familiar with TypeScript.
 
 ### Exercises 🥵
 
@@ -61,9 +61,7 @@ Exercises designed to help me & other programmers get more familiar with TypeScr
 
 ### Prerequisites 🛠️
 
-- Install node.js as dev dependency
-
-`npm install -D node`
+- Install Node.js: Make sure you have Node.js installed on your system. You can download and install it from the official Node.js website: [https://nodejs.org](https://nodejs.org). Minimum required version: X.X.X.
 
 - Install TypeScript compiler as dev dependency
 
