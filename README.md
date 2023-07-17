@@ -7,6 +7,32 @@
 
 Exercises designed to help get more familiar with TypeScript.
 
+### Prerequisites 🛠️
+
+- Make sure you have [Node.js](https://nodejs.org) installed on your system. 
+
+- Install depencencies by running the following command in the project directory:
+
+`npm install`
+
+This will install the TypeScript compiler and ts-node, as specified in the `package.json` file.
+
+- Now, with ts-node you can quickly and directly execute TypeScript on Node.js without precompiling, by running the following command:
+
+`ts-node <filename>.ts`
+
+### Installation 📦
+
+Clone this repo to your local machine
+
+`git clone https://github.com/nightrunner4/typescript-exercises`
+
+### Usage 🖊️
+
+Just write your solutions on each exercise file, use `ts-node <filename>.ts` to run it an see if it works. 
+
+When you are done, check the solution for the corresponding exercise inside the `solutions` directory.
+
 ### Exercises 🥵
 
 #### 1️⃣ Function
@@ -59,22 +85,6 @@ Exercises designed to help get more familiar with TypeScript.
 
 - Print the `numbersArray` and `stringsArray` to the console.
 
-### Prerequisites 🛠️
 
-- [Node.js](https://nodejs.org): Make sure you have Node.js installed on your system. You can download and install it from the official Node.js website.
 
-- Install the TypeScript compiler and ts-node, specified in `package.lock` by running the following command in the project directory:
 
-`npm install`
-
-- With ts-node, you can quickly and directly execute TypeScript on Node.js without precompiling, by running the following command:
-
-`npx ts-node <filename>.ts`
-
-### Installation 📦
-
-Clone this repo to your local machine
-
-`git clone https://github.com/nightrunner4/typescript-exercises`
-
-### Usage 🖊️
