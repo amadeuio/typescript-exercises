@@ -21,7 +21,7 @@ Make sure you have [Node.js](https://nodejs.org) installed on your system.
 
 ### Usage 🖊️
 
-Just write your solutions on each exercise file inside the `exercises` directory, `cd` inside of it and run `ts-node <filename>.ts` to run it an see if it works.
+Just write your solutions on each exercise file inside the `exercises` directory, `cd` inside of it and run `ts-node <filename>.ts` to run it and test if it works.
 
 When you are done, check the solution for the corresponding exercise inside the `solutions` directory.
 
