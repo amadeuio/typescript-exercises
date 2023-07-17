@@ -9,7 +9,7 @@ Exercises designed to help me & other programmers get more familiar with TypeScr
 
 ### Exercises 🥵
 
-#### 1️⃣ TypeScript Function
+#### 1️⃣ Function
 
 - Define a function called `sumNumbers` that takes two parameters: `num1` and `num2`, both of type `number`.
   The function should return the sum of the two numbers.
@@ -22,7 +22,7 @@ Exercises designed to help me & other programmers get more familiar with TypeScr
   and store the result in a variable called `result`.
 - Print the value of `result` to the console.
 
-#### 2️⃣ Create a Person Class
+#### 2️⃣ Person Class
 
 - Define a class called Person with the following properties:
 
