@@ -61,15 +61,11 @@ Exercises designed to help get more familiar with TypeScript.
 
 ### Prerequisites 🛠️
 
-- Install Node.js: Make sure you have Node.js installed on your system. You can download and install it from the official Node.js website: [https://nodejs.org](https://nodejs.org). Minimum required version: X.X.X.
+- [Node.js](https://nodejs.org): Make sure you have Node.js installed on your system. You can download and install it from the official Node.js website.
 
-- Install TypeScript compiler as dev dependency
+- Install the TypeScript compiler and ts-node, specified in `package.lock` by running the following command in the project directory:
 
-`npm install -D typescript`
-
-- Install ts-node as dev dependency (optional)
-
-`npm install -D ts-node`
+`npm install`
 
 - With ts-node, you can quickly and directly execute TypeScript on Node.js without precompiling, by running the following command:
 
