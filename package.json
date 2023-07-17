@@ -1,7 +1,7 @@
 {
   "name": "typescript-exercises",
   "version": "1.0.0",
-  "description": "Exercises designed to help get more familiar with TypeScript",
+  "description": "Exercises designed to gain familiarity with TypeScript",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nightrunner4/typescript-exercises.git"

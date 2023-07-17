@@ -5,11 +5,11 @@
 
 ### Description 📚
 
-Exercises designed to help get more familiar with TypeScript.
+Exercises designed to gain familiarity with TypeScript.
 
 ### Prerequisites 🛠️
 
-- Make sure you have [Node.js](https://nodejs.org) installed on your system. 
+- Make sure you have [Node.js](https://nodejs.org) installed on your system.
 
 - Install depencencies by running the following command in the project directory:
 
@@ -29,7 +29,7 @@ Clone this repo to your local machine
 
 ### Usage 🖊️
 
-Just write your solutions on each exercise file, use `ts-node <filename>.ts` to run it an see if it works. 
+Just write your solutions on each exercise file inside the `exercises` directory, navigate inside of it and run `ts-node <filename>.ts` to run it an see if it works.
 
 When you are done, check the solution for the corresponding exercise inside the `solutions` directory.
 
@@ -84,7 +84,3 @@ When you are done, check the solution for the corresponding exercise inside the 
   that are of type string.
 
 - Print the `numbersArray` and `stringsArray` to the console.
-
-
-
-
