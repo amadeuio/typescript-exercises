@@ -1,5 +1,5 @@
 ![languages](https://img.shields.io/badge/languages-ts-blue)
-![license](https://img.shields.io/badge/license-MIT-blue)
+![license](https://img.shields.io/badge/license-MIT-green)
 
 # TypeScript Exercises 🔬
 
