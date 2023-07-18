@@ -21,7 +21,7 @@ class Person {
   }
 }
 
-const person = new Person("John Doe", 64, "johndoe@example.com");
+const person: Person = new Person("John Doe", 64, "johndoe@example.com");
 person.introduce();
 
 export {};

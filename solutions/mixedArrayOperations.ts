@@ -25,6 +25,9 @@ let numbersArray: number[] = mixedArray.filter(
   (element) => typeof element === "number"
 ) as number[];
 
+// note: 'as number[]' is a type assertion that tells the compiler to treat the results of the
+// fiter method as an array of numbers
+
 let stringsArray: string[] = mixedArray.filter(
   (element) => typeof element === "string"
 ) as string[];
