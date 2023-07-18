@@ -12,3 +12,5 @@ const b: number = 5;
 const result: number = sumNumbers(a, b);
 
 console.log(result);
+
+export {};

@@ -31,3 +31,5 @@ let stringsArray: string[] = mixedArray.filter(
 
 console.log("numbersArray:", numbersArray);
 console.log("stringsArray:", stringsArray);
+
+export {};
