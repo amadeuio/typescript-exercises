@@ -11,15 +11,15 @@ This repo contains exercises designed to gain familiarity with TypeScript.
 
 ### Prerequisites 🛠️
 
-Make sure you have [Node.js](https://nodejs.org) installed on your system.
+- Make sure you have [Node.js](https://nodejs.org) installed on your system.
 
 ### Installation 📦
 
 - Clone this repo to your local machine `git clone https://github.com/nightrunner4/typescript-exercises`
 
-- `cd` to the project directory and run `npm install`. This will install the TypeScript compiler and `ts-node` as dev dependencies, as specified in the `package.json` file
+- `cd` to the project directory and run `npm install`. This will install `tsc`, the TypeScript compiler and `ts-node` as dev dependencies, as specified in the `package.json` file.
 
-- `ts-node` is not strictly necessary, but it's a handy tool that allows you to quickly and directly execute TypeScript on Node.js without precompiling, by running `ts-node <filename>.ts`
+- Note: `ts-node` is not strictly necessary, but it's a handy tool that allows you to quickly and directly execute TypeScript on Node.js without precompiling, by running `ts-node <filename>.ts`
 
 ### Usage 🖊️
 
