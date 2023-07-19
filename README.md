@@ -79,7 +79,7 @@ This repo contains exercises designed to gain familiarity with TypeScript.
 
 - Print the `numbersArray` and `stringsArray` to the console.
 
-### Implement a generic Queue data structure
+### 4️⃣ Implement a generic Queue data structure
 
 Write a TypeScript class called Queue that represents a generic queue data structure. The class should have the following methods:
 
