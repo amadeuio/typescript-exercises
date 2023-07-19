@@ -93,6 +93,12 @@ Write a TypeScript class called Queue that represents a generic queue data struc
 
 - `size(): number`: Returns the number of items currently in the queue.
 
+Notes:
+
+- You may assume that the enqueue method will always receive an argument of type T.
+
+- The dequeue and peek methods should return undefined if the queue is empty.
+
 Example usage:
 
 ```TypeScript
@@ -110,8 +116,3 @@ console.log(queue.peek()); // Output: 10
 console.log(queue.dequeue()); // Output: 10
 console.log(queue.size()); // Output: 2
 ```
-
-Notes:
-
-- You may assume that the enqueue method will always receive an argument of type T.
-- The dequeue and peek methods should return undefined if the queue is empty.
