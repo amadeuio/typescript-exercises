@@ -110,3 +110,20 @@ console.log(queue.peek()); // Output: 10
 console.log(queue.dequeue()); // Output: 10
 console.log(queue.size()); // Output: 2
 ```
+
+#### 5️⃣ Find First Non Repeated Character
+
+Write a function called `findFirstNonRepeatedCharacter` that takes a string as its argument and returns the first non-repeated character in the string. If all characters are repeated, the function should return null.
+
+Notes 📝:
+
+- The input string will contain only lowercase alphabets (a-z).
+
+- The function should be case-sensitive, meaning 'a' and 'A' are considered different characters.
+
+Example usage:
+
+```TypeScript
+Input: "abacddbec"
+Output: "e" (The first non-repeated character is "e" as it appears only once)
+```
