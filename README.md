@@ -1,7 +1,7 @@
 ![languages](https://img.shields.io/badge/languages-ts-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
-# TypeScript Exercises 🔬
+# TypeScript Exercises 🔷
 
 ### Description 📚
 
@@ -113,7 +113,7 @@ console.log(queue.size()); // Output: 2
 
 #### 5️⃣ Find First Non Repeated Character
 
-Write a function called `findFirstNonRepeatedCharacter` that takes a string as its argument and returns the first non-repeated character in the string. If all characters are repeated, the function should return null.
+Write a function called `findFirstNonRepeatedCharacter` that takes a string as its argument and returns the first non-repeated character in the string. If all characters are repeated, the function should return `null`.
 
 Notes 📝:
 
@@ -125,5 +125,5 @@ Example usage:
 
 ```TypeScript
 Input: "abacddbec"
-Output: "e" (The first non-repeated character is "e" as it appears only once)
+Output: "e" // The first non-repeated character is "e" as it appears only once
 ```
