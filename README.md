@@ -79,11 +79,11 @@ This repo contains exercises designed to gain familiarity with TypeScript.
 
 - Print the `numbersArray` and `stringsArray` to the console.
 
-#### 4️⃣ Implement a generic Queue data structure
+#### 4️⃣ Queue data structure
 
 Write a TypeScript class called Queue that represents a generic queue data structure. The class should have the following methods:
 
-- `enqueue(item: T): void`: Adds an item of type T to the end of the queue. Note: You may assume that the method will always receive an argument of type T.
+- `enqueue(item: T): void`: Adds an item of type T to the end of the queue. Note 📝: You may assume that the method will always receive an argument of type T.
 
 - `dequeue(): T | undefined`: Removes and returns the item at the front of the queue. If the queue is empty, return `undefined`.
 
