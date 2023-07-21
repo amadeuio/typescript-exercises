@@ -83,7 +83,7 @@ This repo contains exercises designed to gain familiarity with TypeScript.
 
 Write a TypeScript class called Queue that represents a generic queue data structure. The class should have the following methods:
 
-- `enqueue(item: T): void`: Adds an item of type T to the end of the queue. Note 📝: You may assume that the method will always receive an argument of type T.
+- `enqueue(item: T): void`: Adds an item of type T to the end of the queue. 📝 Note: You may assume that the method will always receive an argument of type T.
 
 - `dequeue(): T | undefined`: Removes and returns the item at the front of the queue. If the queue is empty, return `undefined`.
 
@@ -148,4 +148,38 @@ Output: true // since "racecar" reads the same forward and backward
 ```TypeScript
 Input: "hello"
 Output: false // since "hello" does not read the same backward
+```
+
+Sure! Here's another TypeScript exercise for you:
+
+#### Stack Data Structure
+
+Write a class called `Stack` that represents a generic stack data structure. The class should have the following methods:
+
+1. `push(item: T): void`: Adds an item of type T to the top of the stack. 📝 Note: You may assume that the method will always receive an argument of type T.
+
+2. `pop(): T | undefined`: Removes and returns the item from the top of the stack. If the stack is empty, return `undefined`.
+
+3. `isEmpty(): boolean`: Returns a boolean indicating whether the stack is empty or not.
+
+4. `peek(): T | undefined`: Returns the item from the top of the stack without removing it. If the stack is empty, return `undefined`.
+
+5. `size(): number`: Returns the number of items currently in the stack.
+
+**Example Usage:**
+
+```typescript
+const stack = new Stack<number>();
+console.log(stack.isEmpty()); // Output: true
+
+stack.push(10);
+stack.push(20);
+stack.push(30);
+
+console.log(stack.size()); // Output: 3
+console.log(stack.isEmpty()); // Output: false
+console.log(stack.peek()); // Output: 30
+
+console.log(stack.pop()); // Output: 30
+console.log(stack.size()); // Output: 2
 ```
