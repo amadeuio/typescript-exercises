@@ -130,7 +130,7 @@ Output: "e" // The first non-repeated character is "e" as it appears only once
 
 #### 6️⃣ Is Palindrome
 
-Write a function called `isPalindrome` that takes a string as its argument and returns true if the string is a palindrome and false otherwise. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward (ignoring spaces, punctuation, and capitalization).
+Write a function called `isPalindrome` that takes a string as its argument and returns `true` if the string is a palindrome and `false` otherwise. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward (ignoring spaces, punctuation, and capitalization).
 
 📝 Notes:
 
