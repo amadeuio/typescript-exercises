@@ -2,7 +2,7 @@
 
 // Solution:
 
-function isPalindrome(input: string) {
+function isPalindrome(input: string): Boolean {
   // regex to match any punctuation or whitespace character
   const regex: RegExp = /[\p{P}\s]/gu;
 
@@ -16,8 +16,10 @@ function isPalindrome(input: string) {
   return cleanInput === cleanReversedInput;
 }
 
-console.log(isPalindrome("rACeCaR")); // true
+console.log(isPalindrome("racecar")); // true
 
 console.log(isPalindrome("hello")); // false
+
+console.log(isPalindrome("rACeCaR")); // true
 
 export {};
