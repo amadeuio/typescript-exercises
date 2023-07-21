@@ -93,7 +93,7 @@ Write a TypeScript class called Queue that represents a generic queue data struc
 
 - `size(): number`: Returns the number of items currently in the queue.
 
-Example usage:
+Example Usage:
 
 ```TypeScript
 const queue = new Queue<number>();
@@ -115,15 +115,37 @@ console.log(queue.size()); // Output: 2
 
 Write a function called `findFirstNonRepeatedCharacter` that takes a string as its argument and returns the first non-repeated character in the string. If all characters are repeated, the function should return `null`.
 
-Notes 📝:
+📝 Notes:
 
 - The input string will contain only lowercase alphabets (a-z).
 
 - The function should be case-sensitive, meaning 'a' and 'A' are considered different characters.
 
-Example usage:
+Example Usage:
 
 ```TypeScript
 Input: "abacddbec"
 Output: "e" // The first non-repeated character is "e" as it appears only once
+```
+
+#### 6️⃣ Is Palindrome
+
+Write a function called `isPalindrome` that takes a string as its argument and returns true if the string is a palindrome and false otherwise. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward (ignoring spaces, punctuation, and capitalization).
+
+📝 Notes:
+
+- The function should be case-insensitive, meaning "Racecar" or "rACeCaR" should still be considered a palindrome.
+
+- The function should ignore spaces and punctuation when checking for a palindrome. Only consider alphanumeric characters.
+
+Example Usage:
+
+```TypeScript
+Input: "racecar"
+Output: true // since "racecar" reads the same forward and backward
+```
+
+```TypeScript
+Input: "hello"
+Output: false // since "hello" does not read the same backward
 ```

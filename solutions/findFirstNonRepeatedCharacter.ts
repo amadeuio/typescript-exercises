@@ -3,6 +3,7 @@
 // Solution:
 
 function findFirstNonRepeatedCharacter(input: string): string | null {
+  // define an empty object using inline type annotation
   const charCount: { [key: string]: number } = {};
 
   // count the occurrences of each character in the input string and store in charCount object
