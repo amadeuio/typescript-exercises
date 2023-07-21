@@ -166,7 +166,7 @@ Write a class called `Stack` that represents a generic stack data structure. The
 
 #### Example Usage:
 
-```typescript
+```TypeScript
 const stack = new Stack<number>();
 console.log(stack.isEmpty()); // Output: true
 
