@@ -93,7 +93,7 @@ Write a TypeScript class called Queue that represents a generic queue data struc
 
 - `size(): number`: Returns the number of items currently in the queue.
 
-Example Usage:
+#### Example Usage:
 
 ```TypeScript
 const queue = new Queue<number>();
@@ -121,7 +121,7 @@ Write a function called `findFirstNonRepeatedCharacter` that takes a string as i
 
 - The function should be case-sensitive, meaning 'a' and 'A' are considered different characters.
 
-Example Usage:
+#### Example Usage:
 
 ```TypeScript
 Input: "abacddbec"
@@ -138,7 +138,7 @@ Write a function called `isPalindrome` that takes a string as its argument and r
 
 - The function should ignore spaces and punctuation when checking for a palindrome. Only consider alphanumeric characters.
 
-Example Usage:
+#### Example Usage:
 
 ```TypeScript
 Input: "racecar"
@@ -150,23 +150,21 @@ Input: "hello"
 Output: false // since "hello" does not read the same backward
 ```
 
-Sure! Here's another TypeScript exercise for you:
-
-#### Stack Data Structure
+#### 7️⃣ Stack Data Structure
 
 Write a class called `Stack` that represents a generic stack data structure. The class should have the following methods:
 
-1. `push(item: T): void`: Adds an item of type T to the top of the stack. 📝 Note: You may assume that the method will always receive an argument of type T.
+- `push(item: T): void`: Adds an item of type T to the top of the stack. 📝 Note: You may assume that the method will always receive an argument of type T.
 
-2. `pop(): T | undefined`: Removes and returns the item from the top of the stack. If the stack is empty, return `undefined`.
+- `pop(): T | undefined`: Removes and returns the item from the top of the stack. If the stack is empty, return `undefined`.
 
-3. `isEmpty(): boolean`: Returns a boolean indicating whether the stack is empty or not.
+- `isEmpty(): boolean`: Returns a boolean indicating whether the stack is empty or not.
 
-4. `peek(): T | undefined`: Returns the item from the top of the stack without removing it. If the stack is empty, return `undefined`.
+- `peek(): T | undefined`: Returns the item from the top of the stack without removing it. If the stack is empty, return `undefined`.
 
-5. `size(): number`: Returns the number of items currently in the stack.
+- `size(): number`: Returns the number of items currently in the stack.
 
-**Example Usage:**
+#### Example Usage:
 
 ```typescript
 const stack = new Stack<number>();
