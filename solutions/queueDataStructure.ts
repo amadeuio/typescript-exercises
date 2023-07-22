@@ -5,7 +5,7 @@
 class Queue<T> {
   // T represents a generic type
   // T[] is an array of generic type
-  items: T[];
+  private items: T[];
 
   // the constructor creates objects with a key 'items' and value '[]', which will be the array
   // where we will create our queue
