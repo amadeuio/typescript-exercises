@@ -181,3 +181,19 @@ console.log(stack.peek()); // Output: 30
 console.log(stack.pop()); // Output: 30
 console.log(stack.size()); // Output: 2
 ```
+
+#### 8️⃣ Counting Sort
+
+Write a function called `countingSort` that takes an array of non-negative integers as input and returns the sorted array using Counting Sort algorithm.
+
+📝 Notes:
+
+- You can assume that the input array will contain only non-negative integers.
+
+#### Example Usage:
+
+```TypeScript
+const inputArray = [4, 2, 2, 8, 3, 3, 1];
+const sortedArray = countingSort(inputArray);
+console.log(sortedArray); // Output: [1, 2, 2, 3, 3, 4, 8]
+```
