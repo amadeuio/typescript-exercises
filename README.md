@@ -186,7 +186,7 @@ console.log(stack.size()); // Output: 2
 
 Write a function called `countingSort` that takes an array of non-negative integers as input and returns the sorted array using Counting Sort algorithm.
 
-📝 Notes:
+📝 Note:
 
 - You can assume that the input array will contain only non-negative integers.
 
