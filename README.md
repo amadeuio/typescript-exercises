@@ -11,7 +11,7 @@ This repo contains exercises designed to gain familiarity with TypeScript.
 
 ### Resources Used 💡
 
-- GPT
+- [GPT](https://chat.openai.com)
 
 ### Prerequisites 🛠️
 
