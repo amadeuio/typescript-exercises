@@ -9,6 +9,10 @@ TypeScript is a superset of JavaScript which offers static typing for improved c
 
 This repo contains exercises designed to gain familiarity with TypeScript.
 
+### Resources Used 💡
+
+- GPT
+
 ### Prerequisites 🛠️
 
 - Make sure you have [Node.js](https://nodejs.org) installed on your system.
