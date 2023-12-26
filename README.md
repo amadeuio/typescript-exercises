@@ -19,7 +19,7 @@ This repo contains exercises designed to gain familiarity with TypeScript.
 
 ### Installation 📦
 
-- Clone this repo to your local machine `git clone https://github.com/nightrunner4/typescript-exercises`
+- Clone this repo to your local machine `git clone git@github.com:amadeu-io/typescript-exercises.git`
 
 - `cd` to the project directory and run `npm install`. This will install `tsc`, the TypeScript compiler and `ts-node` as dev dependencies, as specified in the `package.json` file.
 
